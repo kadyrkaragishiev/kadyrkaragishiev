@@ -16,4 +16,7 @@ Here are some ideas to get you started:
 -->
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=kadyrkaragishiev& count_private=true &show_icons=true&theme=github_dark" />
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kadyrkaragishiev&theme=github_dark&layout=compact" />
+
+#### WAKA TIME
+
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=kadyrkaragishiev&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
