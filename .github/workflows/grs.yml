@@ -8,32 +8,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=kadyrkaragishiev&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true
-          path: stats.svg
-          token: ${{ secrets.GH_TOKEN }}
-
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=kadyrkaragishiev&theme=tokyonight&layout=compact&langs_count=6
-          path: langs.svg
-          token: ${{ secrets.GH_TOKEN }}
-
-      - name: Generate streak card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: streak
-          options: user=kadyrkaragishiev&theme=tokyonight
-          path: streak.svg
-          token: ${{ secrets.GH_TOKEN }}
+      - name: Generate stats cards
+        run: |
+          # Download stats card
+          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=kadyrkaragishiev&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true"
+          
+          # Download languages card  
+          curl -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=kadyrkaragishiev&theme=tokyonight&layout=compact&langs_count=6"
+          
+          # Download streak card
+          curl -o streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=kadyrkaragishiev&theme=tokyonight"
 
       - name: Commit cards
         run: |
