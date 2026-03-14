@@ -12,7 +12,6 @@ Started as a Unity developer, now I build things across the full stack — and s
 ## 📊 Stats
 
 <p align="center">
-  <img src="./stats.svg" height="180" />
   <img src="./langs.svg" height="180" />
 </p>
 
