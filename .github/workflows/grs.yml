@@ -26,4 +26,3 @@ jobs:
           git add stats.svg
           git commit -m "Update stats" || exit 0
           git push
-

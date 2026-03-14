@@ -1,17 +1,20 @@
-### 
+# Hey, I'm Kadyr 👋
 
-<!--
-**kadyrkaragishiev/kadyrkaragishiev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Project manager & sysadmin who loves to vibe-code.  
+Started as a Unity developer, now I build things across the full stack — and sometimes break them.
 
-Here are some ideas to get you started:
+## 🛠 Languages
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-!![kadyrkaragishiev's GitHub stats](./stats.svg)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+
+## 📊 Stats
+
+![kadyrkaragishiev's GitHub stats](./stats.svg)
+
+## 📬 Contact
+
+[![Telegram](https://img.shields.io/badge/@kadyrkaragishiev-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/kadyrkaragishiev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kadyrkaragishiev/)
+[![Instagram](https://img.shields.io/badge/@kadyrkaragishiev-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/kadyrkaragishiev)
