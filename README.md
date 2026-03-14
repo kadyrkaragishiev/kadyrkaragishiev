@@ -11,7 +11,14 @@ Started as a Unity developer, now I build things across the full stack — and s
 
 ## 📊 Stats
 
-![kadyrkaragishiev's GitHub stats](./stats.svg)
+<p align="center">
+  <img src="./stats.svg" height="180" />
+  <img src="./langs.svg" height="180" />
+</p>
+
+<p align="center">
+  <img src="./streak.svg" />
+</p>
 
 ## 📬 Contact
 
