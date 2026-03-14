@@ -16,7 +16,7 @@ jobs:
       - name: Generate stats cards
         run: |
           # Download stats card
-          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=kadyrkaragishiev&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true"
+          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=kadyrkaragishiev&show_icons=true&theme=tokyonight&count_private=true"
           
           # Download languages card  
           curl -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=kadyrkaragishiev&theme=tokyonight&layout=compact&langs_count=6"
